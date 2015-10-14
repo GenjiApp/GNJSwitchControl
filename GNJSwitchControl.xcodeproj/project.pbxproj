@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B68CB2301BCE7F9800418C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68CB22F1BCE7F9800418C28 /* AppDelegate.swift */; };
+		B68CB2321BCE7F9800418C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68CB2311BCE7F9800418C28 /* ViewController.swift */; };
+		B68CB2341BCE7F9800418C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68CB2331BCE7F9800418C28 /* Assets.xcassets */; };
+		B68CB2371BCE7F9800418C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68CB2351BCE7F9800418C28 /* Main.storyboard */; };
+		B68CB2421BCE7F9800418C28 /* GNJSwitchControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68CB2411BCE7F9800418C28 /* GNJSwitchControlTests.swift */; };
+		B68CB24D1BCE7F9800418C28 /* GNJSwitchControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68CB24C1BCE7F9800418C28 /* GNJSwitchControlUITests.swift */; };
+		B68CB25B1BCE7FC200418C28 /* GNJSwitchControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68CB25A1BCE7FC200418C28 /* GNJSwitchControl.swift */; settings = {ASSET_TAGS = (); }; };
+		B68CB2611BCE8E5900418C28 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = B68CB2601BCE8E5900418C28 /* demo.gif */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B68CB23E1BCE7F9800418C28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B68CB2241BCE7F9800418C28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B68CB22B1BCE7F9800418C28;
+			remoteInfo = GNJSwitchControl;
+		};
+		B68CB2491BCE7F9800418C28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B68CB2241BCE7F9800418C28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B68CB22B1BCE7F9800418C28;
+			remoteInfo = GNJSwitchControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B68CB22C1BCE7F9800418C28 /* GNJSwitchControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GNJSwitchControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68CB22F1BCE7F9800418C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B68CB2311BCE7F9800418C28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B68CB2331BCE7F9800418C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B68CB2361BCE7F9800418C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B68CB2381BCE7F9800418C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68CB23D1BCE7F9800418C28 /* GNJSwitchControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GNJSwitchControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68CB2411BCE7F9800418C28 /* GNJSwitchControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GNJSwitchControlTests.swift; sourceTree = "<group>"; };
+		B68CB2431BCE7F9800418C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68CB2481BCE7F9800418C28 /* GNJSwitchControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GNJSwitchControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68CB24C1BCE7F9800418C28 /* GNJSwitchControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GNJSwitchControlUITests.swift; sourceTree = "<group>"; };
+		B68CB24E1BCE7F9800418C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68CB25A1BCE7FC200418C28 /* GNJSwitchControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GNJSwitchControl.swift; sourceTree = "<group>"; };
+		B68CB25C1BCE84DF00418C28 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B68CB25E1BCE86E100418C28 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B68CB2601BCE8E5900418C28 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B68CB2291BCE7F9800418C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68CB23A1BCE7F9800418C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68CB2451BCE7F9800418C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B68CB2231BCE7F9800418C28 = {
+			isa = PBXGroup;
+			children = (
+				B68CB25C1BCE84DF00418C28 /* README.md */,
+				B68CB2601BCE8E5900418C28 /* demo.gif */,
+				B68CB25E1BCE86E100418C28 /* LICENSE */,
+				B68CB22E1BCE7F9800418C28 /* GNJSwitchControl */,
+				B68CB2401BCE7F9800418C28 /* GNJSwitchControlTests */,
+				B68CB24B1BCE7F9800418C28 /* GNJSwitchControlUITests */,
+				B68CB22D1BCE7F9800418C28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B68CB22D1BCE7F9800418C28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B68CB22C1BCE7F9800418C28 /* GNJSwitchControl.app */,
+				B68CB23D1BCE7F9800418C28 /* GNJSwitchControlTests.xctest */,
+				B68CB2481BCE7F9800418C28 /* GNJSwitchControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B68CB22E1BCE7F9800418C28 /* GNJSwitchControl */ = {
+			isa = PBXGroup;
+			children = (
+				B68CB2351BCE7F9800418C28 /* Main.storyboard */,
+				B68CB22F1BCE7F9800418C28 /* AppDelegate.swift */,
+				B68CB2311BCE7F9800418C28 /* ViewController.swift */,
+				B68CB25A1BCE7FC200418C28 /* GNJSwitchControl.swift */,
+				B68CB2331BCE7F9800418C28 /* Assets.xcassets */,
+				B68CB2381BCE7F9800418C28 /* Info.plist */,
+			);
+			path = GNJSwitchControl;
+			sourceTree = "<group>";
+		};
+		B68CB2401BCE7F9800418C28 /* GNJSwitchControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				B68CB2411BCE7F9800418C28 /* GNJSwitchControlTests.swift */,
+				B68CB2431BCE7F9800418C28 /* Info.plist */,
+			);
+			path = GNJSwitchControlTests;
+			sourceTree = "<group>";
+		};
+		B68CB24B1BCE7F9800418C28 /* GNJSwitchControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B68CB24C1BCE7F9800418C28 /* GNJSwitchControlUITests.swift */,
+				B68CB24E1BCE7F9800418C28 /* Info.plist */,
+			);
+			path = GNJSwitchControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B68CB22B1BCE7F9800418C28 /* GNJSwitchControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68CB2511BCE7F9800418C28 /* Build configuration list for PBXNativeTarget "GNJSwitchControl" */;
+			buildPhases = (
+				B68CB2281BCE7F9800418C28 /* Sources */,
+				B68CB2291BCE7F9800418C28 /* Frameworks */,
+				B68CB22A1BCE7F9800418C28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GNJSwitchControl;
+			productName = GNJSwitchControl;
+			productReference = B68CB22C1BCE7F9800418C28 /* GNJSwitchControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B68CB23C1BCE7F9800418C28 /* GNJSwitchControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68CB2541BCE7F9800418C28 /* Build configuration list for PBXNativeTarget "GNJSwitchControlTests" */;
+			buildPhases = (
+				B68CB2391BCE7F9800418C28 /* Sources */,
+				B68CB23A1BCE7F9800418C28 /* Frameworks */,
+				B68CB23B1BCE7F9800418C28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B68CB23F1BCE7F9800418C28 /* PBXTargetDependency */,
+			);
+			name = GNJSwitchControlTests;
+			productName = GNJSwitchControlTests;
+			productReference = B68CB23D1BCE7F9800418C28 /* GNJSwitchControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B68CB2471BCE7F9800418C28 /* GNJSwitchControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68CB2571BCE7F9800418C28 /* Build configuration list for PBXNativeTarget "GNJSwitchControlUITests" */;
+			buildPhases = (
+				B68CB2441BCE7F9800418C28 /* Sources */,
+				B68CB2451BCE7F9800418C28 /* Frameworks */,
+				B68CB2461BCE7F9800418C28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B68CB24A1BCE7F9800418C28 /* PBXTargetDependency */,
+			);
+			name = GNJSwitchControlUITests;
+			productName = GNJSwitchControlUITests;
+			productReference = B68CB2481BCE7F9800418C28 /* GNJSwitchControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B68CB2241BCE7F9800418C28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Genji App";
+				TargetAttributes = {
+					B68CB22B1BCE7F9800418C28 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					B68CB23C1BCE7F9800418C28 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B68CB22B1BCE7F9800418C28;
+					};
+					B68CB2471BCE7F9800418C28 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B68CB22B1BCE7F9800418C28;
+					};
+				};
+			};
+			buildConfigurationList = B68CB2271BCE7F9800418C28 /* Build configuration list for PBXProject "GNJSwitchControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B68CB2231BCE7F9800418C28;
+			productRefGroup = B68CB22D1BCE7F9800418C28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B68CB22B1BCE7F9800418C28 /* GNJSwitchControl */,
+				B68CB23C1BCE7F9800418C28 /* GNJSwitchControlTests */,
+				B68CB2471BCE7F9800418C28 /* GNJSwitchControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B68CB22A1BCE7F9800418C28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68CB2611BCE8E5900418C28 /* demo.gif in Resources */,
+				B68CB2341BCE7F9800418C28 /* Assets.xcassets in Resources */,
+				B68CB2371BCE7F9800418C28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68CB23B1BCE7F9800418C28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68CB2461BCE7F9800418C28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B68CB2281BCE7F9800418C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68CB2321BCE7F9800418C28 /* ViewController.swift in Sources */,
+				B68CB2301BCE7F9800418C28 /* AppDelegate.swift in Sources */,
+				B68CB25B1BCE7FC200418C28 /* GNJSwitchControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68CB2391BCE7F9800418C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68CB2421BCE7F9800418C28 /* GNJSwitchControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68CB2441BCE7F9800418C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68CB24D1BCE7F9800418C28 /* GNJSwitchControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B68CB23F1BCE7F9800418C28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B68CB22B1BCE7F9800418C28 /* GNJSwitchControl */;
+			targetProxy = B68CB23E1BCE7F9800418C28 /* PBXContainerItemProxy */;
+		};
+		B68CB24A1BCE7F9800418C28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B68CB22B1BCE7F9800418C28 /* GNJSwitchControl */;
+			targetProxy = B68CB2491BCE7F9800418C28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B68CB2351BCE7F9800418C28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B68CB2361BCE7F9800418C28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B68CB24F1BCE7F9800418C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B68CB2501BCE7F9800418C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B68CB2521BCE7F9800418C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GNJSwitchControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genjiapp.GNJSwitchControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B68CB2531BCE7F9800418C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GNJSwitchControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genjiapp.GNJSwitchControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B68CB2551BCE7F9800418C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GNJSwitchControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genjiapp.GNJSwitchControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GNJSwitchControl.app/Contents/MacOS/GNJSwitchControl";
+			};
+			name = Debug;
+		};
+		B68CB2561BCE7F9800418C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GNJSwitchControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genjiapp.GNJSwitchControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GNJSwitchControl.app/Contents/MacOS/GNJSwitchControl";
+			};
+			name = Release;
+		};
+		B68CB2581BCE7F9800418C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GNJSwitchControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genjiapp.GNJSwitchControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GNJSwitchControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B68CB2591BCE7F9800418C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GNJSwitchControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genjiapp.GNJSwitchControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GNJSwitchControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B68CB2271BCE7F9800418C28 /* Build configuration list for PBXProject "GNJSwitchControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68CB24F1BCE7F9800418C28 /* Debug */,
+				B68CB2501BCE7F9800418C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B68CB2511BCE7F9800418C28 /* Build configuration list for PBXNativeTarget "GNJSwitchControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68CB2521BCE7F9800418C28 /* Debug */,
+				B68CB2531BCE7F9800418C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B68CB2541BCE7F9800418C28 /* Build configuration list for PBXNativeTarget "GNJSwitchControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68CB2551BCE7F9800418C28 /* Debug */,
+				B68CB2561BCE7F9800418C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B68CB2571BCE7F9800418C28 /* Build configuration list for PBXNativeTarget "GNJSwitchControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68CB2581BCE7F9800418C28 /* Debug */,
+				B68CB2591BCE7F9800418C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B68CB2241BCE7F9800418C28 /* Project object */;
+}
